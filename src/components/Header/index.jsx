@@ -1,11 +1,18 @@
-import Button from "./Button"
+import "./Header.css"
 
 const Header = () => {
     return (
-        <>
-            <h1>Topzera demais oh</h1>
-            <Button />
-        </>
+        <div className="header">
+           <nav className="navbar">
+            <ul className="navbar-list">
+                <li><a href="">Início</a></li>
+                <li><a href="">Sobre Mim</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+           </nav>
+          
+        </div>
     )
 }
 

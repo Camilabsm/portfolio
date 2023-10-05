@@ -1,21 +1,23 @@
 import "./ProjectItem.css"
 import PropTypes from 'prop-types';
-import data from "./projects.json"
 
 const ProjectItem = (props) => {
     
-    const tecnologies = data.projects[0].techs
+    const tecnologies = props.techs
     
     return (
         <div className="project-item">
-            <img src={props.capa} alt={"Capa do projeto" + props.nome} />
+            <img className="project-cover" src={props.capa} alt={"Capa do projeto " + props.nome} />
             <h4>{props.nome}</h4>
             <p>{props.descricao}</p>
             <div>
                 {tecnologies.map((tech , index) => <p className="tech-item" key={index}>{tech}</p>)}
             </div>
-            <a href={props.linkGithub}><img src="" alt={"Veja o código do projeto" + props.nome + "no Github"} /></a>
-            <a href={props.linkDeploy}><img src="" alt={"Veja o projeto" + props.nome + "no ar"} /></a>
+            <div className="icons">
+                <img src="/public/images/favorite_FILL0_wght300_GRAD0_opsz24.svg" alt="Ícone de favoritar" />
+                <a href={props.linkGithub}><img className="icons-item" src="/public/images/icons8-github.svg" alt={"Veja o código do projeto " + props.nome + " no Github"} /></a>
+                <a href={props.linkDeploy}><img className="icons-item" src="/public/images/open_in_new_FILL0_wght300_GRAD0_opsz24.svg" alt={"Veja o projeto " + props.nome + " no ar"} /></a>
+            </div>
         </div>
     )
 }

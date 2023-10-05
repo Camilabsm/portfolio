@@ -1,23 +1,24 @@
-import { useState } from 'react'
 import Header from './components/Header'
+import Home from './components/Home'
+import AboutMe from './components/AboutMe'
+import ProjectCarroussel from './components/ProjectCarroussel'
+import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
+import GlobalStyles from './components/GlobalStyles'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      
-      <h1>TUTUPOM</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <GlobalStyles/>
+      <div className="portfolio">
         <Header />
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      
+        <Home />
+        <AboutMe />
+        <ProjectCarroussel />
+        <ContactMe /> 
+        <Footer />       
+      </div>   
     </>
   )
 }

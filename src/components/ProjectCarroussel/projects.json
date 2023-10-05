@@ -1,0 +1,42 @@
+{
+    "projects" : [
+        {
+            "id": "1",
+            "name": "Digital Banking Landing Page",
+            "description": "Uma landing page de um banco digital, baseado em um design do Figma",
+            "techs": ["HTML", "CSS", "JavaScript", "Desktop-First"],
+            "linkGithub": "",
+            "linkDeploy": "",
+            "cover": "/public/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
+        },
+
+        {
+            "id": "2",
+            "name": "BuzzFeed Quiz Clone - Chapéu Seletor",
+            "description": "Uma landing page de um banco digital, baseado em um design do Figma",
+            "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
+            "linkGithub": "https://github.com/Camilabsm/buzzfeed-quiz-clone",
+            "linkDeploy": "",
+            "cover": "/public/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
+        },
+
+        {
+            "id": "3",
+            "name": "Digital Banking Landing Page",
+            "description": "Uma landing page de um banco digital, baseado em um design do Figma",
+            "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
+            "linkGithub": "https://github.com/Camilabsm/blog-angular",
+            "linkDeploy": "",
+            "cover": "/public/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
+        },
+        {
+            "id": "4",
+            "name": "Digital Banking Landing Page",
+            "description": "Uma landing page de um banco digital, baseado em um design do Figma",
+            "techs": ["HTML", "CSS", "TypeScript", "Angular"],
+            "linkGithub": "https://github.com/Camilabsm/blog-angular",
+            "linkDeploy": "",
+            "cover": "/public/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
+        }
+    ]   
+}

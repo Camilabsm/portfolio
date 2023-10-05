@@ -3,4 +3,47 @@
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #fcfcfc;
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    width: 70vw;
 }
+
+.project-item h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.project-item > p {
+    margin-bottom: 1rem;
+}
+
+.project-item > img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.tech-item {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    padding: .3rem .5rem;
+    border-radius: 10px;
+    background-color: gray;
+    color: #fcfcfc;
+    font-size: 0.7rem;
+}
+
+.icons{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0 0.5rem 0;
+    align-items: center;   
+} 
+.icons-item{
+    width: 24px;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.navbar-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.navbar-list li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.navbar-list li a:active{
+    font-family: 'GabaritoExtraBold';
+}
