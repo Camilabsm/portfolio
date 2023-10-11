@@ -3,6 +3,29 @@ import GabaritoRegular from "./fonts/Gabarito-Regular.ttf"
 import GabaritoExtraBold from "./fonts/Gabarito-ExtraBold.ttf"
 
 const GlobalStyles = createGlobalStyle`
+
+    /* @media (prefers-color-scheme: light) { */
+    :root {
+        font-size: 62.5%;
+        --background: #f6f6f6;
+        --primary: #F456C7;
+        --icons: #c7f456;
+        --accent: #f48356;
+        --primary-text: #212121;
+        --secondary-text: #757575;
+        --divider: #BDBDBD;
+    }
+
+    /* @media (prefers-color-scheme: dark) {
+    :root {
+        --text: #f8e8f5;
+        --background: #040103;
+        --primary: #932f4d;
+        --secondary: #421e15;
+        --accent: #ca6f58;
+    }
+    } */
+
     @font-face {
         font-family: 'GabaritoRegular';
         src: local('Gabarito Regular'), local('GabaritoRegular'), url(${GabaritoRegular});
@@ -18,22 +41,31 @@ const GlobalStyles = createGlobalStyle`
         -webkit-text-size-adjust: 100%;
         font-family: 'GabaritoRegular';
         font-weight: 400;
-
+        background-color: var(--background);
     }
     body {
-        margin: 0 10vw;
+        margin: 0;
         min-height: 100vh;
     }
     main {
         display: block;
     }
     h1 {
-        font-size: 2em;
-        margin: 0.67em 0;
-    }
-    h4, p {
+        font-size: 2.4em;
         margin: 0;
     }
+    h3, h4, p {
+        margin: 0; 
+    }
+
+    h4{
+        color: var(--primary-text);
+    }
+
+    p {
+        color: var(--secondary-text);
+    }
+
     hr {
         box-sizing: content-box; 
         height: 0; 
@@ -41,6 +73,8 @@ const GlobalStyles = createGlobalStyle`
     }
     a {
         background-color: transparent;
+        color: var(--primary-text);
+        text-decoration: none;
     }
     abbr[title] {
         border-bottom: none; 
@@ -55,7 +89,7 @@ const GlobalStyles = createGlobalStyle`
     kbd,
     samp {
         font-family: monospace, monospace; 
-        font-size: 1em; 
+        font-size: 1.6rem; 
     }
     small {
     font-size: 80%;
