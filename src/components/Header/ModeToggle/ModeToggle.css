@@ -1,0 +1,9 @@
+button {
+    background-color: transparent;
+    border: none;
+    transition: 0.3sec ease-in-out;
+}
+
+button img{
+    width: 3rem;
+}

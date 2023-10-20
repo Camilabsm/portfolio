@@ -1,0 +1,64 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "skillName": "Figma",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+            "skillAlt": "Logo do Figma"
+        },
+        {
+            "id": 2,
+            "skillName": "HTML",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            "skillAlt": "Logo do HTML"
+        },
+        {
+            "id": 3,
+            "skillName": "CSS",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            "skillAlt": "Logo do CSS"
+        },
+        {
+            "id": 4,
+            "skillName": "JavaScript",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "skillAlt": "Logo do JavaScript"
+        },
+        {
+            "id": 5,
+            "skillName": "React",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "skillAlt": "Logo do React"
+        },
+        {
+            "id": 6,
+            "skillName": "Angular",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+            "skillAlt": "Logo do Angular"
+        },
+        {
+            "id": 7,
+            "skillName": "TypeScript",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+            "skillAlt": "Logo do TypeScript"
+        },
+        {
+            "id": 8,
+            "skillName": "Git",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+            "skillAlt": "Logo do Git"
+        },
+        {
+            "id": 9,
+            "skillName": "GitHub",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+            "skillAlt": "Logo do GitHub"
+        },
+        {
+            "id": 10,
+            "skillName": "VSCode",
+            "skillImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+            "skillAlt": "Logo do Git"
+        }
+    ]
+}

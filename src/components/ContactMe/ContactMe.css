@@ -1,0 +1,15 @@
+.contact-me-content{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.socials-item {
+    width: 3.5rem;
+    filter: drop-shadow(0 0 0.05rem #efefef);
+}

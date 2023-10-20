@@ -1,61 +1,107 @@
 import { createGlobalStyle } from "styled-components"
-import GabaritoRegular from "./fonts/Gabarito-Regular.ttf"
-import GabaritoExtraBold from "./fonts/Gabarito-ExtraBold.ttf"
 
 const GlobalStyles = createGlobalStyle`
 
-    /* @media (prefers-color-scheme: light) { */
-    :root {
-        font-size: 62.5%;
+    /* @media (prefers-color-scheme: light) { 
+        :root {
+            font-size: 62.5%;
+            --background: #f6f6f6;
+            --header-background: rgba(255,255,255,0.6);
+            --second-background: #ffffff;
+            --primary: #FFA757;
+            --secondary: #7B9BD8;
+            --primary-text: #121212;
+            --secondary-text: #757575;
+        }
+      } 
+
+     @media (prefers-color-scheme: dark) {
+        :root {
+            font-size: 62.5%;
+            --background: #121212;
+            --header-background: rgba(0,0,0,0.6);
+            --second-background: #383838;
+            --primary: #ffcc95;
+            --secondary: #a2b8e3;
+            --primary-text: #efefef;
+            --secondary-text: #bdbdbd;
+        }
+    }  */
+
+    .darkMode {
+        --background: #121212;
+        --header-background: rgba(0,0,0,0.6);
+        --second-background: #383838;
+        --primary: #ffcc95;
+        --secondary: #a2b8e3;
+        --primary-text: #efefef;
+        --secondary-text: #bdbdbd;
+    }
+
+    .lightMode {
         --background: #f6f6f6;
-        --primary: #F456C7;
-        --icons: #c7f456;
-        --accent: #f48356;
-        --primary-text: #212121;
+        --header-background: rgba(255,255,255,0.6);
+        --second-background: #ffffff;
+        --primary: #FFA757;
+        --secondary: #7B9BD8;
+        --primary-text: #121212;
         --secondary-text: #757575;
-        --divider: #BDBDBD;
     }
 
-    /* @media (prefers-color-scheme: dark) {
-    :root {
-        --text: #f8e8f5;
-        --background: #040103;
-        --primary: #932f4d;
-        --secondary: #421e15;
-        --accent: #ca6f58;
-    }
-    } */
-
-    @font-face {
-        font-family: 'GabaritoRegular';
-        src: local('Gabarito Regular'), local('GabaritoRegular'), url(${GabaritoRegular});
+    .sup-text{
+        font-family: 'Outfit', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color: var(--secondary);
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-bottom: 0.5rem;
     }
 
-    @font-face {
-        font-family: 'GabaritoExtraBold';
-        src: local('Gabarito Extra Bold'), local('GabaritoExtraBold'), url(${GabaritoExtraBold});
+    .main-text{
+        font-family: 'Merriweather', serif;
+        color: var(--primary-text);
+        font-weight: 900;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    
+
+    .sec-text {
+        font-size: 1.5rem;
+        color: var(--secondary-text);
+        font-weight: 400;
+        margin-bottom: 1rem;
     }
     
     html {
-        line-height: 1.15; 
+        font-size: 62.5%;
+        line-height: 1;
         -webkit-text-size-adjust: 100%;
-        font-family: 'GabaritoRegular';
-        font-weight: 400;
-        background-color: var(--background);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
     }
+
     body {
-        margin: 0;
         min-height: 100vh;
+        margin: 0;
     }
+
     main {
         display: block;
     }
     h1 {
-        font-size: 2.4em;
         margin: 0;
+        padding: 0;
+        font-size: 4rem;
     }
+
     h3, h4, p {
         margin: 0; 
+    }
+
+    h2{
+        font-size: 3rem;
     }
 
     h4{

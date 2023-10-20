@@ -3,9 +3,11 @@
     border: 1px solid transparent;
     padding: 0.6rem 1rem;
     font-size: 1.4rem;
-    background-color: var(--icons);
+    font-weight: 500;
+    background-color: var(--primary);
     cursor: pointer;
     width: fit-content;
+    color: var(--background);
 }
 
   

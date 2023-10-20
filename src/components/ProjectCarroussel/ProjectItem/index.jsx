@@ -33,9 +33,4 @@ ProjectItem.propTypes = {
     linkDeploy: PropTypes.string
 }
 
-ProjectItem.defaultProps = {
-    propArray: ["1","2","3","4","5"],
-    propString: "String value..."
-}
-
 export default ProjectItem

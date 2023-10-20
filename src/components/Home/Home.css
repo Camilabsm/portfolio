@@ -1,35 +1,41 @@
 .home{
-    margin: 0 auto;
-    text-align: center;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    justify-content: center; 
-    align-items: center;
-    background-image: url("/public/images/output-onlinepngtools.png");
-    background-size: cover;
-}
-
-.slogan{
-    color: var(--accent);
-    font-size: 4rem;
-
-}
-
-.name{
-    color: var(--primary-text);
-    font-size: 2rem;
-}
-
-.presentation{
-    font-size: 1.6rem;
+    gap: 1rem;
+    justify-content: center;
     width: 80vw;
+    margin: 0 auto;  
+}
+
+.hero-image img{
+    max-width: 100%;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.ideas{
+    background: linear-gradient(transparent 0%, transparent 79%, var(--primary) 80%, var(--primary) 90%, transparent 91%, transparent 100%);
+}
+
+.code{
+    background: linear-gradient(transparent 0%, transparent 79%, var(--secondary) 80%, var(--secondary) 90%, transparent 91%, transparent 100%);
 }
 
 .cta{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    gap: 1.5rem;
+}
+
+@media screen and (min-width: 720px){
+    .home{
+        flex-direction: row-reverse;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
 }

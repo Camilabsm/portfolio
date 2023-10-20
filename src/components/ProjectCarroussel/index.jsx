@@ -6,7 +6,8 @@ let projects = data.projects
 
 const ProjectCarroussel = () => {
     return (
-       
+      <div id="projects" className="projects-container">
+        <h1>meus projetos</h1>
           <div className="carroussel">
             { projects.map((project) => {
               return (
@@ -21,6 +22,7 @@ const ProjectCarroussel = () => {
               )
             }) }
           </div>        
+      </div>    
     )
 }
 
