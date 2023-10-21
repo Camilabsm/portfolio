@@ -20,7 +20,7 @@ input, textarea{
 
 input::placeholder, textarea::placeholder{
     color: var(--secondary-text);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .send{
