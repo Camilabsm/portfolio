@@ -16,7 +16,7 @@ const ProjectCarroussel = () => {
       <h2 className="main-text">Meus projetos</h2>
       <p className="sec-text">Aqui você encontra meus projetos mais recentes:</p>
     
-    <Swiper
+    <Swiper id="portfolio"
       style={{width: "80vw", 
         margin: "2rem auto 3rem auto",
         "--swiper-pagination-color": "var(--secondary)",

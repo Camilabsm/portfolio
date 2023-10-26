@@ -5,29 +5,40 @@
             "name": "Digital Banking Landing Page",
             "description": "Uma landing page de um banco digital, baseado em um design do Figma",
             "techs": ["HTML", "CSS", "JavaScript", "Desktop-First"],
-            "linkGithub": "",
-            "linkDeploy": "",
-            "cover": "/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
+            "linkGithub": "https://github.com/Camilabsm/projeto-01-db-lp",
+            "linkDeploy": "https://projeto-01-db-lp.vercel.app/",
+            "cover": "/public/images/projeto_landingpage.png"
         },
 
         {
             "id": "2",
-            "name": "BuzzFeed Quiz Clone",
-            "description": "Uma landing page de um banco digital, baseado em um design do Figma",
-            "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
-            "linkGithub": "https://github.com/Camilabsm/buzzfeed-quiz-clone",
-            "linkDeploy": "",
-            "cover": "/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
+            "name": "Meu primeiro portfolio",
+            "description": "Projeto da primeira versão do meu portfolio",
+            "techs": ["HTML", "CSS", "JS", "Styled Components", "Responsivo"],
+            "linkGithub": "https://github.com/Camilabsm/meu-site",
+            "linkDeploy": "https://meu-site-red.vercel.app/",
+            "cover": "/public/images/projeto_meusite.png"
         },
 
         {
             "id": "3",
-            "name": "Digital Banking Landing Page",
-            "description": "Uma landing page de um banco digital, baseado em um design do Figma",
+            "name": "BuzzFeed Quiz Clone",
+            "description": "Um clone de um quiz do buzzfeed com o tema de 'Chapéu Seletor' ",
+            "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
+            "linkGithub": "https://github.com/Camilabsm/buzzfeed-quiz-clone",
+            "linkDeploy": "https://buzzfeed-quiz-clone.vercel.app/",
+            "cover": "/public/images/projeto_angularquiz.png"
+        },
+
+        {
+            "id": "4",
+            "name": "The Blog ",
+            "description": "Um projeto de blog com inspiração retirada do Dribble.",
             "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
             "linkGithub": "https://github.com/Camilabsm/blog-angular",
-            "linkDeploy": "",
-            "cover": "/images/software-de-gestão-de-projetos-blog-terceirizando-web-min-1.png"
-        }
+            "linkDeploy": "https://blog-angular-mauve.vercel.app/",
+            "cover": "/public/images/projeto_angularblog.png"
+        }        
+
     ]   
 }

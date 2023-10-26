@@ -5,7 +5,7 @@ const Menu = ({ open, setOpen }) => {
   return (
     <StyledMenu open={open} onClick={() => setOpen(!open)}>
       <a href="#about-me">Sobre mim</a>
-      <a href="#projects">Projetos</a>
+      <a href="#portfolio">Projetos</a>
       <a href="#contact-me">Contato</a>
     </StyledMenu>
   )
