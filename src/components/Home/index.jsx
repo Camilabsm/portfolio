@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="home">
             <section className="hero-image"> 
-                <img src="/public/images/heropiece.png" alt="Imagem de um computador colorido com notificações de mensagem, código fonte ao redor" />
+                <img src="/images/heropiece.png" alt="Imagem de um computador colorido com notificações de mensagem, código fonte ao redor" />
             </section>
             <section className="home-content">
                 <div className="home-text">

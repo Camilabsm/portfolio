@@ -4,7 +4,7 @@ import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import ContactMe from './components/ContactMe'
-// import ProjectCarroussel from './components/ProjectCarroussel'
+import ProjectCarroussel from './components/ProjectCarroussel'
 import GlobalStyles from './components/GlobalStyles'
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Header />
         <Home /> 
         <AboutMe /> 
+        <ProjectCarroussel/>
         <ContactMe /> 
         <Footer/> 
       </div>  

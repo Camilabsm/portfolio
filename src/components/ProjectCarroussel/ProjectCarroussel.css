@@ -1,24 +1,12 @@
-.projects-container{
-    width: 100%;
+.carousel-text{
+    width: 80vw;
     margin: 0 auto;
 }
 
-.projects-container h1{
-    font-size: 3rem;
-    color: var(--primary);
-    margin-bottom: 1rem;
+.swiper-container {
+    overflow: visible;
 }
-
-.carroussel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    margin: 2rem 0;
-}
-
-@media screen and (min-width: 720px){
-    .carroussel{ 
-        flex-direction: row;
-    }
+.swiper-pagination {
+    position: absolute;
+    bottom: -25px; // should be fine as is, but adjust to your liking
 }

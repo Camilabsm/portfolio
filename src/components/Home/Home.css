@@ -1,5 +1,5 @@
 .home{
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -37,5 +37,9 @@
         gap: 4rem;
         justify-content: center;
         align-items: center;
+    }
+
+    h1{
+        width: 80%;
     }
 }

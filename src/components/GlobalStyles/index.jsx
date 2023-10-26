@@ -75,6 +75,7 @@ const GlobalStyles = createGlobalStyle`
     }
     
     html {
+        box-sizing: border-box;
         font-size: 62.5%;
         line-height: 1;
         -webkit-text-size-adjust: 100%;

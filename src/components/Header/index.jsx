@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <div className="top-header">
-            <a href="#">CM</a>
+            <a href="/">CM</a>
             <div className="header-buttons">
 
             <ModeToggle/>

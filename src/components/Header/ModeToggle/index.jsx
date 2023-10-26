@@ -21,7 +21,7 @@ const ModeToggle = () => {
     
     return (
         <div>
-            <button onClick={toggleClick}>{mode ? <img src="/public/images/moon.png"/> : <img src="/public/images/sun.png"></img>} </button>
+            <button onClick={toggleClick}>{mode ? <img src="/images/moon.png"/> : <img src="/images/sun.png"></img>} </button>
         </div>
     );
 }

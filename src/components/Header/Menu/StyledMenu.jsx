@@ -6,12 +6,12 @@ export const StyledMenu = styled.nav`
   justify-content: center;
   background: var(--background);
   height: 100vh;
-  width: 20vw;
+  padding: 0;
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 0.3s ease-in-out;
-  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(100%)'};
+  transition: transform;
+  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(-100%)'};
   
 
   .menu-icon{
@@ -33,8 +33,18 @@ export const StyledMenu = styled.nav`
     transition: color 0.3s linear;
     padding-left: 2rem;
     
-    @media screen and (max-width: 321px) {
+    @media screen and (max-width: 426px) {
       font-size: 2.5rem;
     }
   }
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(-1000%)'};
+  width: 40vw;
+}
+
+@media screen and (min-width: 1024px){
+  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(-1000%)'};
+  width: 30vw;
+}
 `;
