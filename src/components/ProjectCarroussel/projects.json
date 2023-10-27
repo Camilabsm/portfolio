@@ -7,7 +7,7 @@
             "techs": ["HTML", "CSS", "JavaScript", "Desktop-First"],
             "linkGithub": "https://github.com/Camilabsm/projeto-01-db-lp",
             "linkDeploy": "https://projeto-01-db-lp.vercel.app/",
-            "cover": "/public/images/projeto_landingpage.png"
+            "cover": "/images/projeto_landingpage.png"
         },
 
         {
@@ -17,7 +17,7 @@
             "techs": ["HTML", "CSS", "JS", "Styled Components", "Responsivo"],
             "linkGithub": "https://github.com/Camilabsm/meu-site",
             "linkDeploy": "https://meu-site-red.vercel.app/",
-            "cover": "/public/images/projeto_meusite.png"
+            "cover": "/images/projeto_meusite.png"
         },
 
         {
@@ -27,7 +27,7 @@
             "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
             "linkGithub": "https://github.com/Camilabsm/buzzfeed-quiz-clone",
             "linkDeploy": "https://buzzfeed-quiz-clone.vercel.app/",
-            "cover": "/public/images/projeto_angularquiz.png"
+            "cover": "/images/projeto_angularquiz.png"
         },
 
         {
@@ -37,7 +37,7 @@
             "techs": ["HTML", "CSS", "TypeScript", "Angular", "Responsivo"],
             "linkGithub": "https://github.com/Camilabsm/blog-angular",
             "linkDeploy": "https://blog-angular-mauve.vercel.app/",
-            "cover": "/public/images/projeto_angularblog.png"
+            "cover": "/images/projeto_angularblog.png"
         }        
 
     ]   

@@ -38,6 +38,11 @@ export const StyledMenu = styled.nav`
     }
   }
 
+@media screen and (min-width: 426px) and (max-width: 767px){
+  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(-1500%)'};
+  width: 70vw;
+}
+
 @media screen and (min-width: 767px) and (max-width: 1023px){
   transform: ${({ open }) => open ? 'translateX(0%)' : 'translateX(-1000%)'};
   width: 40vw;

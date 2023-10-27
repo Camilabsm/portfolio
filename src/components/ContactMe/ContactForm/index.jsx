@@ -20,9 +20,9 @@ const ContactForm = () => {
     return (
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <label className="sup-text" htmlFor="name">Seu nome</label>
-            <input autoComplete="on" required type="text" id="name" name="name" placeholder="Insira seu nome aqui... Ex: Camila Matias" />
+            <input autoComplete="on" required type="text" id="name" name="name" placeholder="Ex: Camila Matias" />
             <label className="sup-text" htmlFor="email">Seu e-mail</label>
-            <input autoComplete="on" required type="email" id="email" name="email" placeholder="Insira seu email aqui... Ex: seunome@email.com" />
+            <input autoComplete="on" required type="email" id="email" name="email" placeholder="Ex: seunome@email.com" />
             <label className="sup-text" htmlFor="message">Mensagem</label>
             <textarea required name="message" id="message" cols="30" rows="10" placeholder="Insira sua mensagem, comentário ou sugestão aqui..."></textarea>
             <button type="submit" className="send">Enviar</button>

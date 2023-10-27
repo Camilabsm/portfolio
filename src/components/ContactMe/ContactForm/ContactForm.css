@@ -16,13 +16,15 @@ input, textarea{
     border: 0.1rem solid var(--primary-text);
     padding: 0.5rem;
     color: var(--primary-text);
+    font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
 }
 
 input::placeholder, textarea::placeholder{
     color: var(--secondary-text);
+    opacity: 0.5;
     font-family: 'Outfit', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .send{

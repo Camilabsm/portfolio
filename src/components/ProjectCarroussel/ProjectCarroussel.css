@@ -2,11 +2,26 @@
     width: 80vw;
     margin: 0 auto;
 }
-
-.swiper-container {
-    overflow: visible;
+  
+.swiper{
+    height: 35rem;
+    position: relative;
 }
-.swiper-pagination {
-    position: absolute;
-    bottom: -25px; // should be fine as is, but adjust to your liking
+
+.swiper-pagination, .swiper-pagination-horizontal{
+   margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1024px){
+    .swiper{
+        height: 48vh;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .swiper{
+        height: 41vh;
+        position: relative;
+    }
 }

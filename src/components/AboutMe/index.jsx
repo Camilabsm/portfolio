@@ -6,8 +6,8 @@ const AboutMe = () => {
         <div className="about-me" id="about-me">
             <p className="sup-text">Sobre mim</p>
             <h2 className="main-text">Da engenharia à tecnologia</h2>
-            <p className="sec-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non neque sit amet augue lobortis consectetur. Quisque quam leo, sollicitudin ac leo eu, tempus ornare tortor. Duis lobortis tortor dui, ac semper nisl aliquam ac. Duis ac convallis sem, sit amet tristique ipsum.</p>
-            <p className="sec-text">Phasellus lobortis vel nisl nec egestas. Sed in maximus ante. Suspendisse facilisis orci id condimentum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse a odio blandit, faucibus risus ac, congue odio. Donec sed fermentum sem. Donec mollis, ligula quis tincidunt tempor, ligula massa malesuada elit, non convallis diam lorem at velit.</p>
+            <p className="sec-text">Me chamo Camila, sou de Fortaleza - CE, atualmente sou granduanda em Análise e Desenvolvimento de Sistemas e desenvolvedora front-end em formação. Tenho graduação em engenharia química, pós graduação em gestão da qualidade e produtividade e alguns anos de carreira em qualidade industrial, mas, em 2022, decidi dar uma virada de chave na minha vida: estava na hora de migrar para a área de tecnologia.</p>
+            <p className="sec-text">Atualmente estou aprofundando meus conhecimentos em JavaScript e dando meus primeiros passos com ReactJS (um desses passos, por exemplo, é esse portfolio!). Adoro quebrar um pouco a cabeça aprendendo coisas novas, vibro intensamente quando o código dá certo de primeira e sou apaixonada por café. Quando não estou codando, estou jogando no meu switch ou lendo livros no meu kindle.</p>
             <TechSkills/>
         </div>
     )
