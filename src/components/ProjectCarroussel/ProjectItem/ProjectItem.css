@@ -49,6 +49,13 @@
     fill: var(--primary-text);
 }
 
+
+@media screen and (min-width: 1024px){
+    .project-item{
+        height: 33rem;
+    }
+}
+
 @media screen and (min-width: 1920px){
     .project-item{
         height: 33rem;
