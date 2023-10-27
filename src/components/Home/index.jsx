@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="home-text">
                     <p className="sup-text">Olá, eu sou a Camila &#128075; <br></br> Bem vindo(a) ao meu portfólio!</p>
                     <h1 className="main-text">Onde suas <span className="ideas">ideias</span> viram meu <span className="code">código</span></h1>
-                    <p className="sec-text">Tiro seus projetos do papel (ou do figma) e os transformo em realidade!</p>
+                    <p className="sec-text">Por meio do desenvolvimento front-end de qualidade, tiro seus projetos do papel (ou do figma) e os transformo em realidade! Vamos começar?</p>
                 </div>
                 <div className="cta">
                     <Button>Baixe meu CV</Button>
